@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB14EE441F7982DC00571623 /* mmm.h in Headers */ = {isa = PBXBuildFile; fileRef = AB14EE431F7982DC00571623 /* mmm.h */; };
-		AB14EE461F7982DC00571623 /* mmm.m in Sources */ = {isa = PBXBuildFile; fileRef = AB14EE451F7982DC00571623 /* mmm.m */; };
+		AB14EE4F1F79839400571623 /* mmm.h in Headers */ = {isa = PBXBuildFile; fileRef = AB14EE4C1F79839400571623 /* mmm.h */; };
+		AB14EE501F79839400571623 /* mmm-pset.h in Headers */ = {isa = PBXBuildFile; fileRef = AB14EE4D1F79839400571623 /* mmm-pset.h */; };
+		AB14EE511F79839400571623 /* mmm.c in Sources */ = {isa = PBXBuildFile; fileRef = AB14EE4E1F79839400571623 /* mmm.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB14EE401F7982DC00571623 /* libmmm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmmm.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB14EE431F7982DC00571623 /* mmm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mmm.h; sourceTree = "<group>"; };
-		AB14EE451F7982DC00571623 /* mmm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mmm.m; sourceTree = "<group>"; };
+		AB14EE4C1F79839400571623 /* mmm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mmm.h; sourceTree = "<group>"; };
+		AB14EE4D1F79839400571623 /* mmm-pset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mmm-pset.h"; sourceTree = "<group>"; };
+		AB14EE4E1F79839400571623 /* mmm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mmm.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +49,9 @@
 		AB14EE421F7982DC00571623 /* mmm */ = {
 			isa = PBXGroup;
 			children = (
-				AB14EE431F7982DC00571623 /* mmm.h */,
-				AB14EE451F7982DC00571623 /* mmm.m */,
+				AB14EE4C1F79839400571623 /* mmm.h */,
+				AB14EE4D1F79839400571623 /* mmm-pset.h */,
+				AB14EE4E1F79839400571623 /* mmm.c */,
 			);
 			path = mmm;
 			sourceTree = "<group>";
@@ -60,7 +63,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB14EE441F7982DC00571623 /* mmm.h in Headers */,
+				AB14EE501F79839400571623 /* mmm-pset.h in Headers */,
+				AB14EE4F1F79839400571623 /* mmm.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB14EE461F7982DC00571623 /* mmm.m in Sources */,
+				AB14EE511F79839400571623 /* mmm.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +259,7 @@
 				AB14EE4B1F7982DC00571623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
